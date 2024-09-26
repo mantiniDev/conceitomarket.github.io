@@ -6,22 +6,25 @@ body {
   font-family: 'roboto', regular 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: #ed7a07;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #106770;
+  background-color: #ed7a07;
   padding: 20px;
 }
 
+body {
+  background-color: black;
+}
 h1 {
   margin: 0;
   font-size: 48px;
   font-weight: bold;
-  font-family: 'Orbitron', regular;
-  color: #14c49d;
+  font-family: "League Spartan", sans-serif;
+  color: #041726;
   text-align: center;
 }
 
@@ -34,18 +37,18 @@ p {
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #041726;
+  border-color: #041726;
 }
 
 .btn-primary:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #041726;
+  border-color: #041726;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem #041726;
 }
 
 footer {
@@ -53,12 +56,12 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #106770;
+  background-color: #ed7a07;
   padding: 10px;
   text-align: center;
   font-size: 14px;
   color: #041726;
-  font-family: 'roboto', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 footer p {
@@ -66,12 +69,22 @@ footer p {
   color: #041726;
 }
 
-footer a {
+
+
+.mantini {
   color: #041726;
   text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
 div {
   text-align: center;
+}
+
+
+.league-spartan-<uniquifier> {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
