@@ -6,7 +6,8 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color:black
+  ;
 }
 
 header {
@@ -25,9 +26,9 @@ h1 {
 
 p {
   margin: 20px 0;
-  font-family: 'roboto', sans-serif;
+  font-family: "League Spartan", sans-serif;
   color: #ed7a07;
-  text-align: center;
+  text-align: justify;
   text-justify: auto;
 }
 
@@ -53,17 +54,20 @@ footer {
   width: 100%;
   background-color: #ed7a07;
   padding: 10px;
-  text-align: center;
   font-size: 14px;
   color: #041726;
   font-family: "League Spartan", sans-serif;
 }
 
 footer p {
+  text-align: center;
   margin: 0;
   color: #041726;
 }
 
+span {
+  font-weight: bold;
+}
 
 
 .mantini {
@@ -82,4 +86,12 @@ div {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.social-icons a {
+  color: #ed7a07; /* Cor verde do WhatsApp */
+}
+
+.social-icons a:hover {
+  color: blanchedalmond; /* Cor alterada ao passar o mouse */
 }
