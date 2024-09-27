@@ -3,12 +3,10 @@
 
 
 body {
-  font-family: 'roboto', regular 400;
-  font-size: 16px;
   line-height: 1.5;
-  color: #ed7a07;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 header {
@@ -16,9 +14,6 @@ header {
   padding: 20px;
 }
 
-body {
-  background-color: black;
-}
 h1 {
   margin: 0;
   font-size: 48px;
@@ -31,7 +26,7 @@ h1 {
 p {
   margin: 20px 0;
   font-family: 'roboto', sans-serif;
-  color: #041726;
+  color: #ed7a07;
   text-align: center;
   text-justify: auto;
 }
