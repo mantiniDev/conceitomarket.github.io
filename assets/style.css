@@ -27,7 +27,7 @@ h1 {
 p {
   margin: 20px 0;
   font-family: "League Spartan", sans-serif;
-  color: #ed7a07;
+  color: #ED9C07;
   text-align: justify;
   text-justify: auto;
 }
@@ -55,7 +55,6 @@ footer {
   background-color: #ed7a07;
   padding: 10px;
   font-size: 14px;
-  color: #041726;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -94,4 +93,41 @@ div {
 
 .social-icons a:hover {
   color: blanchedalmond; /* Cor alterada ao passar o mouse */
+}
+
+/* Aviso de cookies */
+/* Estilos básicos para o aviso de cookies */
+.cookie {
+  font-weight: 700;
+}
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(122, 48, 48, 0.918);
+  color: w#EDB807;
+  text-align: center;
+  padding: 15px;
+  display: none; /* Oculto inicialmente */
+  z-index: 1000;
+}
+
+.cookie-consent p {
+  margin: 0;
+  display: inline-block;
+}
+
+.cookie-consent button {
+  margin-left: 20px;
+  background-color: #EDB807;
+  color: black;
+  border: none;
+  padding: 5px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cookie-consent button:hover {
+  background-color: #EDA256;
 }
