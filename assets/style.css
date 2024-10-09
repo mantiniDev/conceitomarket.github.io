@@ -131,3 +131,7 @@ div {
 .cookie-consent button:hover {
   background-color: #EDA256;
 }
+
+.link_cookie {
+  color: #EDB807;
+}
