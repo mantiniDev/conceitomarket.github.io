@@ -7,7 +7,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #EDA256;
   display: flex;
   flex-direction: column;
 }
@@ -22,19 +22,19 @@ h1 {
   font-size: 48px;
   font-weight: bold;
   font-family: "League Spartan", sans-serif;
-  color: #ED9C07;
+  color: #041726;
   text-align: center;
 }
 
 h2 {
     text-align: left;
-    color: #ED9C07;
+    color: #041726;
 }
 
 p {
   margin: 20px 1.5;
   font-family: "League Spartan", sans-serif;
-  color: #ED9C07;
+  color: #000000;
   text-align: justify;
   text-justify: auto;
 }
@@ -66,11 +66,11 @@ footer {
 }
 
 footer p {
-  text-align: start;
-  margin: 0;
-  color: #041726;
-  font-family: "League Spartan", sans-serif;
-}
+    text-align: start;
+    margin: 0;
+    color: #041726;
+    font-family: "League Spartan", sans-serif;
+  }
 
 .link-rodape {
   text-decoration: none;
@@ -239,10 +239,5 @@ body {
 }
 
 a {
-  text-decoration: none;
-}
-
-
-
-
-
+    text-decoration: none;
+  }

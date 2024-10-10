@@ -35,42 +35,47 @@
   <body>
     <header>
       <div class="container-fluid">
-        <nav class="navbar">
-          <a href="\index.html">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="/index.html">
             <div class="logo">
-              <img
-                src="\assets/pictures/LOGO_editado_150.png"
-                alt="logo-menu"
-              />
-            </div>
-            <div class="social-icons">
-              <!-- Ícone do WhatsApp -->
-              <a
-                href="https://wa.me/5521975782545?text=Olá CONCEITO MARKET, tenho interesse no seu serviço."
-                target="_blank"
-                title="WhatsApp"
-              >
-                <i class="fa-brands fa-whatsapp fa-2x"></i>
-              </a>
+              <img src="/assets/pictures/LOGO_editado_150.png" alt="Conceito Market Logo" />
             </div>
           </a>
-          <!-- <ul class="nav-links" id="navLinks">
-            <li><a href="\index.html">Home</a></li>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Franqueados</a></li>
-            <li><a href="#">Contatos</a></li>
-          </ul> -->
-          <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+    
+          <!-- Ícones sociais -->
+          <div class="social-icons ms-auto" id="whatsapp">
+            <a class="whatsapp-icon" href="https://wa.me/5521975782545?text=Olá CONCEITO MARKET, tenho interesse no seu serviço."
+               target="_blank" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp fa-2x"></i>
+            </a>
+          </div>
+          <div class="social-icons ms-auto" id="instagram">
+            <a class="instagram-icon" href="https://www.instagram.com/conceitomarketoficial/?igsh=MWFleTIwMWl1bjJrZg%3D%3D" target="_blank" title="Instagram">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+          </div>
+    
+          <!-- Botão Hamburguer para mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Links de navegação -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="q_somos\quemSomos.html">Quem Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Franqueados</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacts\contatos.html">Contatos</a></li>
+            </ul>
           </div>
         </nav>
       </div>
     </header>
+
     <div class="container-fluid">
       <div class="d-flex justify-content-evenly">
-        <div class="col-sm-50 col-md-10">
+        <div class="col-11">
           <div class="embed-responsive embed-responsive-16by9 mx-auto">
             <br />
             <h2>Política de Cookies</h2>
@@ -120,12 +125,34 @@
     </div>
 
     <footer>
-      <p>&copy; 2024 - Todos os direitos reservados | Conceito Market</p>
-      <p>
-        Criado por
-        <a class="mantini" href="http://www.mantini.app.br">mantini.app</a>
-      </p>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+          <!-- Contatos ou outras informações podem ser colocadas à esquerda no futuro -->
+    
+          <!-- Política de Cookies e Termos de Uso -->
+          <div class="col-3 d-flex justify-content-end">
+            <div class="embed-responsive embed-responsive-16by9 mx-auto">
+              <a href="\policies\politicaCookies.html">
+                <p>Pólitica de Cookies</p>
+              </a>
+              <a href="\policies\politicaCookies.html">
+                <p>Termos de Uso</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="rodape-legal">
+          &copy; 2024 - Todos os direitos reservados | Conceito Market
+        </p>
+        <p class="rodape-legal">
+          Criado por
+          <a class="mantini" href="http://www.mantini.app.br">mantini.app</a>
+        </p>
+      </div>
     </footer>
+    
 
     <script src="\policies\scriptsPolicies.js"></script>
   </body>

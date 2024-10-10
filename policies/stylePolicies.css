@@ -4,9 +4,12 @@
 
 body {
   line-height: 1.5;
+  height: 100%;
   margin: 0;
   padding: 0;
   background-color: #EDA256;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -25,6 +28,7 @@ h1 {
 
 h2 {
     text-align: left;
+    color: #041726;
 }
 
 p {
@@ -51,7 +55,7 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: unset;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -62,6 +66,18 @@ footer {
 }
 
 footer p {
+  text-align: start;
+  margin: 0;
+  color: #041726;
+  font-family: "League Spartan", sans-serif;
+}
+
+
+.link-rodape {
+  text-decoration: none;
+}
+
+.rodape-legal {
   text-align: center;
   margin: 0;
   color: #041726;
@@ -75,7 +91,7 @@ span {
 .mantini {
   color: #041726;
   text-decoration: none;
-  font-family: 'roboto', sans-serif;
+  font-family: 'orbitron', sans-serif;
 }
 
 div {
@@ -83,12 +99,6 @@ div {
 }
 
 
-.league-spartan-<uniquifier> {
-  font-family: "League Spartan", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 .social-icons a {
   color: black;
@@ -156,10 +166,6 @@ div {
     box-sizing: border-box;
 }
 
-body {
-    font-family: "League Spartan", sans-serif;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -188,18 +194,46 @@ body {
     font-size: 18px;
 }
 
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
+//* Ajustes gerais */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+#whatsapp {
+  position: absolute;
+  left: 200px; /* Ajuste o valor conforme necessário */
+  top: 25px;
 }
 
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: #000000;
-    margin: 4px 0;
-    transition: 0.4s;
+#instagram {
+  position: absolute;
+  left: 250px; /* Ajuste o valor conforme necessário */
+  top: 25px;
 }
 
+/* Ajustar o ícone do WhatsApp para mobile */
+@media (max-width: 768px) {
+  #whatsapp {
+    position: absolute;
+    left: 200px; /* Ajuste o valor conforme necessário */
+    top: 25px;
+  }
 
+  #instagram {
+    position: absolute;
+    left: 250px; /* Ajuste o valor conforme necessário */
+    top: 25px;
+  }
+
+  .whatsapp-icon {
+    margin-right: 15px; /* Opcional: espaço adicional no mobile */
+  }
+
+  .instagran-icon {
+    margin-right: 15px; /* Opcional: espaço adicional no mobile */
+  }
+}
+
+a {
+  text-decoration: none;
+}
