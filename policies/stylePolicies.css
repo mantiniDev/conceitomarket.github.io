@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #EDA256;
 }
 
 header {
@@ -26,7 +26,7 @@ h1 {
 p {
   margin: 20px 0;
   font-family: "League Spartan", sans-serif;
-  color: #ED9C07;
+  color: #000000;
   text-align: justify;
   text-justify: auto;
 }
@@ -100,6 +100,11 @@ div {
 /* Estilos básicos para o aviso de cookies */
 .cookie {
   font-weight: 700;
+  color: #EDB807;
+}
+
+.texto-cookie {
+    color: #EDB807;
 }
 
 .cookie-consent {
@@ -108,7 +113,7 @@ div {
   left: 0;
   width: 100%;
   background-color: rgba(122, 48, 48, 0.918);
-  color: w#EDB807;
+  color: #EDB807;
   text-align: center;
   padding: 15px;
   display: none;
@@ -142,83 +147,82 @@ div {
 /* classes menu */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "League Spartan", sans-serif;
+    font-family: "League Spartan", sans-serif;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ED7A07;
-  padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ED7A07;
+    padding: 10px 20px;
 }
 
 .navbar .logo {
-  color: #000000e;
-  font-size: 24px;
+    color: #000000e;
+    font-size: 24px;
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .nav-links li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .nav-links li a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
 }
 
 .hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 .hamburger span {
-  width: 25px;
-  height: 3px;
-  background-color: #000000;
-  margin: 4px 0;
-  transition: 0.4s;
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 4px 0;
+    transition: 0.4s;
 }
 
 /* Estilos para telas menores */
 @media (max-width: 768px) {
-  .nav-links {
-      position: absolute;
-      top: 70px;
-      right: 0;
-      height: 100vh;
-      width: 100%;
-      background-color: #EDA256;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in-out;
-  }
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
 
-  .nav-links li {
-      margin: 20px 0;
-  }
+    .nav-links li {
+        margin: 20px 0;
+    }
 
-  .hamburger {
-      display: flex;
-  }
+    .hamburger {
+        display: flex;
+    }
 
-  .nav-active {
-      transform: translateX(0%);
-  }
+    .nav-active {
+        transform: translateX(0%);
+    }
 }
 
