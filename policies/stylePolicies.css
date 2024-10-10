@@ -160,7 +160,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ED7A07;
+    
     padding: 10px 20px;
 }
 
@@ -199,30 +199,4 @@ body {
 }
 
 /* Estilos para telas menores */
-@media (max-width: 768px) {
-    .nav-links {
-        position: absolute;
-        top: 70px;
-        right: 0;
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .nav-links li {
-        margin: 20px 0;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .nav-active {
-        transform: translateX(0%);
-    }
-}
 
