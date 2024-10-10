@@ -23,8 +23,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+    text-align: left;
+}
+
 p {
-  margin: 20px 0;
+  margin: 20px 1.5;
   font-family: "League Spartan", sans-serif;
   color: #000000;
   text-align: justify;
