@@ -160,7 +160,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #ED7A07;
     padding: 10px 20px;
 }
 
@@ -198,5 +198,4 @@ body {
     transition: 0.4s;
 }
 
-/* Estilos para telas menores */
 
