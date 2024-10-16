@@ -221,16 +221,16 @@ body {
     background-color: #ed7a07;
     padding: 0px;
   }
-  
+
   #whatsapp {
     position: absolute;
-    left: 180px; /* Ajuste o valor conforme necessário */
+    left: 190px; /* Ajuste o valor conforme necessário */
     top: 25px;
   }
 
   #instagram {
     position: absolute;
-    left: 220px; /* Ajuste o valor conforme necessário */
+    left: 240px; /* Ajuste o valor conforme necessário */
     top: 25px;
   }
 
