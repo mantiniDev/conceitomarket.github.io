@@ -249,6 +249,14 @@ a {
   text-decoration: none;
 }
 
+.gif-ajustado {
+  width: 100%; /* Largura ajustada para ocupar 100% do elemento pai */
+  max-width: 400px; /* Limita a largura máxima do GIF */
+  height: auto; /* Mantém a proporção original */
+  display: block; /* Remove o espaço em branco abaixo da imagem */
+  margin: 0 auto; /* Centraliza o GIF horizontalmente */
+  border-radius: 5px; /* Adiciona cantos arredondados */
+}
 
 
 
