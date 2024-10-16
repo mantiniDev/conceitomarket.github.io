@@ -213,6 +213,11 @@ div {
 
 /* Ajustar o ícone do WhatsApp para mobile */
 @media (max-width: 768px) {
+  header {
+    background-color: #ed7a07;
+    padding: 0px;
+  }
+  
   #whatsapp {
     position: absolute;
     left: 180px; /* Ajuste o valor conforme necessário */
