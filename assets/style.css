@@ -54,6 +54,13 @@ p {
   box-shadow: 0 0 0 0.2rem #041726;
 }
 
+/* _______________________rodape ____________________ */
+
+.logo-rodape {
+  height: 150px;
+}
+
+
 footer {
   position: unset;
   left: 0;
